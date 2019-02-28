@@ -1,4 +1,4 @@
-## Title: Using DJango Web Application  
+## Title: Using DJango based Web Application  
 ### Status: ACCEPTED 
 ### Context: A web application is necessary to fufill the requirements of the assignment.
 * The benefits of using Django 
