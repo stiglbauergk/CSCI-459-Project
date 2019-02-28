@@ -8,4 +8,4 @@
   * Django is python based thus it is quick to learn, fast to write and very readable.
   * DJango offers a way to perform raw sql queries with Manager.raw() 
   * DJango is popular and could land us jobs. 
- ### Consequences: This is a new language, so there may be a learning curve. However, there is a lot of documentation out there for DJango because it is so popular. 
+ ### Consequences: This is a new language for the team, so there may be a learning curve. However, there is a lot of documentation out there for DJango because it is so popular. 
