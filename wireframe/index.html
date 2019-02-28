@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+<title>College of Charleston Animal Shelter</title>
+</head>
+<body>
+<h1>College of Charleston Animal Shelter</h1>
+
+<h3>Animal Search</h3>
+<form action="/search.php">
+  Animal Type:<br>
+  <select name="animals">
+    <option value="cat">Cat</option>
+    <option value="dog">Dog</option>
+    <option value="squirrel">Squirrel</option>
+  </select><br>
+  Breed:<br>
+  <select name="dogbreeds">
+    <option value="greatdane">Great Dane</option>
+    <option value="labradorretriever">Labrador Retriever</option>
+    <option value="yorkshireterrier">Yorkshire Terrier</option>
+  </select><br>
+  Age:<br>
+  <input type="number" name="age" min="0.1" max="150"><br>
+  Name:<br>
+  <input type="text" name="name"><br>
+  Shelter Location:<br>
+  <select name="locations">
+    <option value="northcharleston">North Charleston</option>
+    <option value="downtown">Downtown</option>
+  </select><br><br>
+  <input type="submit" value="Search">
+</form>
+<hr>
+<a href="animals.html">Animal List</a> &nbsp; <a href="forum.html">Forum</a>
+
+</body>
+</html>
