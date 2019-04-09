@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<title>Index</title>
+
+</head>
+<body>
+<form method="POST" class="post-form" action="/animals">
+				{% csrf_token %}
+		<div class="container">
+<br>
+		<div class="form-group row">
+		<label class="col-sm-1 col-form-label"></label>
+		<div class="col-sm-4">
+		<h3>Enter Details</h3>
+		</div>
+	</div>
+
+		<div class="form-group row">
+		<label class="col-sm-2 col-form-label">Animal Type:</label>
+		<div class="col-sm-4">
+			{{ form.animaltype }}
+		</div>
+	</div>
+	<div class="form-group row">
+		<label class="col-sm-2 col-form-label">Breed:</label>
+		<div class="col-sm-4">
+			{{ form.breed}}
+		</div>
+	</div>
+		<div class="form-group row">
+		<label class="col-sm-2 col-form-label">Age:</label>
+		<div class="col-sm-4">
+			{{ form.age }}
+		</div>
+	</div>
+		<div class="form-group row">
+		<label class="col-sm-2 col-form-label">Name:</label>
+		<div class="col-sm-4">
+			{{ form.name}}
+		</div>
+	</div>
+	</div>
+		<div class="form-group row">
+		<label class="col-sm-2 col-form-label">Location:</label>
+		<div class="col-sm-4">
+			{{ form.location }}
+		</div>
+	</div>
+		<div class="form-group row">
+		<label class="col-sm-1 col-form-label"></label>
+		<div class="col-sm-4">
+		<button type="submit" class="btn btn-primary">Submit</button>
+		</div>
+	</div>
+		</div>
+</form>
+</body>
+</html>
